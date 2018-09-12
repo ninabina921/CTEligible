@@ -22,7 +22,7 @@ public options: Object = {
     addNew(){
       this.userInput = '';
       this.CriteriaService.addInput(userInput)
-        .subscribe(this.userInput => this.userInput.push(inputs));
+      .subscribe(this.userInput => this.userInput.push(inputs));
       }
 
 
